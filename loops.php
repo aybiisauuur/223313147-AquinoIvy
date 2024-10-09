@@ -1,4 +1,5 @@
-// activity 1
+<?php
+//activity 1
 
 $num1 = 1;
 while ($num1 <= 10) {
@@ -6,9 +7,12 @@ while ($num1 <= 10) {
     $num1++;
 }
 
+echo "\n";
+
 $numeven = 2;
 
 while ($numeven <= 20) {
     echo $numeven, " ";
     $numeven += 2;
 }
+?>
